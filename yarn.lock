@@ -294,6 +294,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tabler/icons-react@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@tabler/icons-react@npm:3.10.0"
+  dependencies:
+    "@tabler/icons": "npm:3.10.0"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 10/f21f00791b2fe63bbb6da6e9f4a74064ef88f47e3896d83b311ef3d3fbaa9b5e7890c710796311670ecaeaecf27a57a3afe66f6b2c7a6f51793dcef3d7c02780
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:3.10.0":
+  version: 3.10.0
+  resolution: "@tabler/icons@npm:3.10.0"
+  checksum: 10/45a246f8d3bf84409b88a240b6c4da1283f909ddd3e637eb2125078f5cda4421af1938ec6ee6eb0d588d93a66a3567e2e8f8a94cbdbb088d540b7973fb156d73
+  languageName: node
+  linkType: hard
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -841,6 +859,13 @@ __metadata:
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: 10/0c16bf660dadb90610553c1d8946a7fdfb81d624adea073b8440b7d795d5b5b08beb3c950c6a2cf16279365a3265158a236876d92bce16423c485c322d7dfaf8
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10/cdfb57fa6c7649bbff98d9028c2f0de2f91c86f551179541cf784b1cfdc1562dcb951955f46d54d930a3879931a980e32a46b598acaea274728dbe068deca919
   languageName: node
   linkType: hard
 
@@ -1643,6 +1668,26 @@ __metadata:
     cross-spawn: "npm:^7.0.0"
     signal-exit: "npm:^4.0.1"
   checksum: 10/77b33b3c438a499201727ca84de39a66350ccd54a8805df712773e963cefb5c4632dbc4386109e97a0df8fb1585aee95fa35acb07587e3e04cfacabfc0ae15dc
+  languageName: node
+  linkType: hard
+
+"framer-motion@npm:^11.3.2":
+  version: 11.3.2
+  resolution: "framer-motion@npm:11.3.2"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  peerDependencies:
+    "@emotion/is-prop-valid": "*"
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  peerDependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10/81303fc53fe436cbaeb4727bf8be6755b14e3f5c35b4b37cb1e4801b78e654dc41f19df05b9ff1a610b7fe3daa093dfff4c83e2ce3a8d24429bef4d9c7b7102a
   languageName: node
   linkType: hard
 
@@ -3744,6 +3789,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tailwind-merge@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "tailwind-merge@npm:2.4.0"
+  checksum: 10/dda331a95146c9943dd18f152156fe7a5daf450a686d0562fb521ebc027273bd0c8f9503742668b3e90d27e887aa794ea5e79c38faa51216e19e9d0f1ec55925
+  languageName: node
+  linkType: hard
+
 "tailwindcss@npm:^3.4.1":
   version: 3.4.5
   resolution: "tailwindcss@npm:3.4.5"
@@ -3959,15 +4011,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ui-practice@workspace:."
   dependencies:
+    "@tabler/icons-react": "npm:^3.10.0"
     "@types/node": "npm:^20.14.10"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18"
+    clsx: "npm:^2.1.1"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.5"
+    framer-motion: "npm:^11.3.2"
     next: "npm:14.2.5"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:4.9.3"
   languageName: unknown

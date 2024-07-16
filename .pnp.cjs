@@ -27,15 +27,19 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@tabler/icons-react", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:3.10.0"],\
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:14.2.5"],\
+          ["framer-motion", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:11.3.2"],\
           ["next", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:14.2.5"],\
           ["postcss", "npm:8.4.39"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:18.3.1"],\
+          ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.5"],\
           ["typescript", "patch:typescript@npm%3A4.9.3#optional!builtin<compat/typescript>::version=4.9.3&hash=a66ed4"]\
         ],\
@@ -403,6 +407,38 @@ const RAW_RUNTIME_STATE =
           ["@swc/helpers", "npm:0.5.5"],\
           ["@swc/counter", "npm:0.1.3"],\
           ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tabler/icons", [\
+      ["npm:3.10.0", {\
+        "packageLocation": "./.yarn/cache/@tabler-icons-npm-3.10.0-ab3b430e17-45a246f8d3.zip/node_modules/@tabler/icons/",\
+        "packageDependencies": [\
+          ["@tabler/icons", "npm:3.10.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tabler/icons-react", [\
+      ["npm:3.10.0", {\
+        "packageLocation": "./.yarn/cache/@tabler-icons-react-npm-3.10.0-6e50042f25-f21f00791b.zip/node_modules/@tabler/icons-react/",\
+        "packageDependencies": [\
+          ["@tabler/icons-react", "npm:3.10.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:3.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@tabler-icons-react-virtual-c20a8d7e0a/0/cache/@tabler-icons-react-npm-3.10.0-6e50042f25-f21f00791b.zip/node_modules/@tabler/icons-react/",\
+        "packageDependencies": [\
+          ["@tabler/icons-react", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:3.10.0"],\
+          ["@tabler/icons", "npm:3.10.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1055,6 +1091,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/client-only-npm-0.0.1-07d3e9505c-0c16bf660d.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clsx", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "./.yarn/cache/clsx-npm-2.1.1-96125b98be-cdfb57fa6c.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2092,6 +2137,37 @@ const RAW_RUNTIME_STATE =
           ["foreground-child", "npm:3.2.1"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["signal-exit", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["framer-motion", [\
+      ["npm:11.3.2", {\
+        "packageLocation": "./.yarn/cache/framer-motion-npm-11.3.2-43ffa4ff03-81303fc53f.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "npm:11.3.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:11.3.2", {\
+        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-e6c61cc1e8/0/cache/framer-motion-npm-11.3.2-43ffa4ff03-81303fc53f.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:11.3.2"],\
+          ["@emotion/is-prop-valid", null],\
+          ["@types/emotion__is-prop-valid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-dom", "npm:18.3.0"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:18.3.1"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "packagePeers": [\
+          "@emotion/is-prop-valid",\
+          "@types/emotion__is-prop-valid",\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4449,6 +4525,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tailwind-merge", [\
+      ["npm:2.4.0", {\
+        "packageLocation": "./.yarn/cache/tailwind-merge-npm-2.4.0-be8d0b173f-dda331a951.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tailwindcss", [\
       ["npm:3.4.5", {\
         "packageLocation": "./.yarn/cache/tailwindcss-npm-3.4.5-4b192b9db4-6da53de94e.zip/node_modules/tailwindcss/",\
@@ -4685,15 +4770,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["ui-practice", "workspace:."],\
+          ["@tabler/icons-react", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:3.10.0"],\
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:14.2.5"],\
+          ["framer-motion", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:11.3.2"],\
           ["next", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:14.2.5"],\
           ["postcss", "npm:8.4.39"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:4b34d29210efe45b83d01ab7e6488851c06e12808619d667aecfe535041969c9fcdfd6b4ad6462bada4ef061e343c96ce683239c20ed741df27421d6aeb09374#npm:18.3.1"],\
+          ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.5"],\
           ["typescript", "patch:typescript@npm%3A4.9.3#optional!builtin<compat/typescript>::version=4.9.3&hash=a66ed4"]\
         ],\
